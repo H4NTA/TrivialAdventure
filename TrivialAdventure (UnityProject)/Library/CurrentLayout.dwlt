@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -303,8 +303,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: displacem..
-    m_Image: {fileID: 8236649756644403728, guid: 0000000000000000d000000000000000,
-      type: 0}
+    m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -432,20 +431,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Textures
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jon\Desktop\TrivialAdventure\TrivialAdventure (UnityProject)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6e140000
-    m_LastClickedID: 5230
-    m_ExpandedIDs: 00000000860f000000ca9a3b
+    m_SelectedIDs: 68150000
+    m_LastClickedID: 5480
+    m_ExpandedIDs: 00000000820f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -473,7 +472,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000860f0000
+    m_ExpandedIDs: 00000000820f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,7 +500,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c6230000e6140000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -589,20 +588,20 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: accffaffe6fbffff00000000
+    m_SelectedIDs: 4a190000
+    m_LastClickedID: 6474
+    m_ExpandedIDs: 50f6fbff5e6efdffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Capsule
-      m_OriginalName: Capsule
+      m_Name: Terrain ZBrush
+      m_OriginalName: Terrain ZBrush
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -364550
+      m_UserData: -264624
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -641,14 +640,14 @@ MonoBehaviour:
     height: 552
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 1200.4212478604684
+  lastFramingTime: 8276.630402821513
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 34.54009, y: 77.04031, z: -231.41771}
+    m_Target: {x: 36.41577, y: 78.20741, z: -231.78984}
     speed: 2
-    m_Value: {x: 34.54009, y: 77.04031, z: -231.41771}
+    m_Value: {x: 36.41577, y: 78.20741, z: -231.78984}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -676,13 +675,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.08995085, y: -0.07338117, z: 0.00661199, w: 0.9932905}
+    m_Target: {x: -0.032320805, y: 0.69843364, z: -0.031735614, w: -0.7142632}
     speed: 2
-    m_Value: {x: 0.0899443, y: -0.07337583, z: 0.0066115083, w: 0.9932181}
+    m_Value: {x: -0.03232027, y: 0.6984221, z: -0.03173509, w: -0.71425134}
   m_Size:
-    m_Target: 19.937256
+    m_Target: 1.9416587
     speed: 2
-    m_Value: 19.937256
+    m_Value: 1.9416587
   m_Ortho:
     m_Target: 0
     speed: 2
