@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Displacement
-  m_Shader: {fileID: 4800000, guid: 191c95c5e872f0a49820c106facb63b2, type: 3}
+  m_Shader: {fileID: 4800000, guid: f217291bf80b7444ea99b50a65d17767, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -56,32 +56,37 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
         m_Texture: {fileID: 2800000, guid: 9a8d7d2e5e4c285469e1c3d2c6d7fc0a, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 10000, y: 10000}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
-        m_Texture: {fileID: 2800000, guid: b5adeb8f13d463c4da3da690b6e1cd44, type: 3}
+        m_Texture: {fileID: 2800000, guid: a3ae3c3133654704baddf1c03c88534e, type: 3}
+        m_Scale: {x: 10000, y: 10000}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Wave_height:
         m_Texture: {fileID: 2800000, guid: 9a8d7d2e5e4c285469e1c3d2c6d7fc0a, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 100000, y: 10000}
         m_Offset: {x: 0, y: 0}
     - _Wave_normal:
-        m_Texture: {fileID: 2800000, guid: b5adeb8f13d463c4da3da690b6e1cd44, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: a3ae3c3133654704baddf1c03c88534e, type: 3}
+        m_Scale: {x: 10000, y: 10000}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amplitude: 3
+    - _Amplitude: 0.41
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _Distortion: 0
     - _DstBlend: 0
     - _EdgeLength: 2
-    - _Float0: 0.2
+    - _Float0: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -89,15 +94,19 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Smoothness: 0
+    - _Smoothness: 0.571
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _Wavelength: 300
+    - _WaterDepth: 0.6270669
+    - _WaterFallOff: 0
+    - _Wavelength: 0.05
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 0, g: 0.56322616, b: 0.8301887, a: 0.95686275}
     - _Color0: {r: 0.41037738, g: 0.7555223, b: 1, a: 0}
+    - _DeepColor: {r: 0, g: 0.4553242, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShalowColor: {r: 0, g: 0.6037736, b: 0.5215474, a: 0}
