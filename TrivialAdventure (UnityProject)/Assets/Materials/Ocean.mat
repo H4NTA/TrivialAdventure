@@ -70,7 +70,7 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Distortion: 0.02
+    - _Distortion: 0.06
     - _DstBlend: 0
     - _EdgeLength: 2
     - _Float1: 1
@@ -86,10 +86,10 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _WaterDepth: 1.4
+    - _WaterDepth: 2.8
     - _WaterFallOff: -0.94
     - _ZWrite: 1
-    - __dirty: 1
+    - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DeepColor: {r: 0, g: 0.252639, b: 0.5283019, a: 0}
