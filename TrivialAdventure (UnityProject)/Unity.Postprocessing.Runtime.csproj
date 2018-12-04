@@ -668,6 +668,7 @@
     <None Include="Assets\AmplifyShaderEditor\Plugins\EditorResources\Templates\Unlit.shader" />
     <None Include="Assets\AmplifyShaderEditor\Readme.txt" />
     <None Include="Assets\Materials\Displacement.shader" />
+    <None Include="Assets\Materials\Ocean.shader" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
